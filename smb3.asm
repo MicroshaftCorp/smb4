@@ -1213,15 +1213,12 @@ UPDATERASTER_32PIXSHOWSPR= $80	; If NOT set, hides sprites that fall beneath the
 	; Bonus_GameState
 	;
 	; 0 = ?
-	; 1 = Giving instructions die game
-	; 2 = Rotating "die"
-	; 3 = Coin spurt prize
-	; 4 = Stopped die
-	; 5 = Die flies away
-	; 6 = ?? Initialize instructions?
-	; 7 = Giving instructions
-	; 8 = Pause before proceeding
-	; 9 = Exiting
+	; 1 = Rotating "die"
+	; 2 = Coin spurt prize
+	; 3 = Stopped die
+	; 4 = Die flies away
+	; 5 = Pause before proceeding
+	; 6 = Exiting
 	Bonus_GameState:	.ds 1
 
 	Card_InitState:		.ds 1	; Initialization state of N-Spade card game
